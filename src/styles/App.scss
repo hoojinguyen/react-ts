@@ -1,0 +1,28 @@
+@import './size';
+
+@import './container';
+
+@import './font';
+@import './mixin';
+@import './color';
+@import './utils';
+@import './reset';
+@import './typography.scss';
+
+// load all component style
+// @import '../components/**/*.scss';
+@import '../components/not-found/style.scss';
+@import '../components//page-loading/style.scss';
+@import '../components//spinner/style.scss';
+
+// load all pages style
+// @import '../features/**/*.scss';
+@import '../features/home/style.scss';
+@import '../features/product/style.scss';
+@import '../features/category/style.scss';
+
+// load all layouts style
+// @import '../layouts/**/*.scss';
+@import '../layouts/header/style.scss';
+@import '../layouts/footer/style.scss';
+@import '../layouts/main/style.scss';
